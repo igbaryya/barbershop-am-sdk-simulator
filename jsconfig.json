@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src/",
+      "outDir": "./dist/",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "es5",
+      "lib": [
+        "es5",
+        "es6",
+        "es7",
+        "es2017",
+        "dom",
+        "esnext.asynciterable"
+      ],
+      "jsx": "react",
+      "sourceMap": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noUnusedLocals": true,
+      "declaration": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "paths": {
+        "sdk/*": ["./src/sdk/*"]
+      }
+    },
+    "include": [
+      "files",
+      "src",
+      "index.d.ts",
+      "test/",
+      "*.tsx",
+      "*.js"
+    ],
+    "exclude": [
+      "node_modules",
+      "generator",
+      "dist"
+    ]
+  }
+  
+  
